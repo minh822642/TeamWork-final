@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styte.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>Cart</title>
+</head>
+
+<body>
+
+
+    <!-- header -->
+    <div id="header">
+        <div id="header-content" class="pt-5"
+            style="background-image: url(img/banenr/shop-title-img-1.jpg);background-position: center 0px;    height: 520px;     background-color: rgb(248, 248, 248);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-dark navbar-expand-lg mt-4 justify-content-between">
+                            <a href="home.html" class="navbar-brand"><img src="img/logo/logo1.png"></a>
+                            <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
+                                <i class="fas fa-search icon-search" aria-hidden="true"></i>
+                                <input class="form-control form-control-sm ml-3 w-75" type="text"
+                                    placeholder="Search..." aria-label="Search">
+                            </form>
+                        </nav>
+
+                        <nav
+                            class="navbar navbar-dark  bg-secondary navbar-expand-lg mt-4 menu-list justify-content-between sticky-top">
+                            <button class="navbar-toggler" data-toggle='collapse' data-target='#main-nav'>
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse " id="main-nav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a href="home.html" class="nav-links">Home</a>
+                                    </li>
+
+                                    <li class="nav-item dropdowns">
+                                        <a class="nav-links" href="shop.html">
+                                            Shop
+                                        </a>
+                                        <div class="dropdown-menus">
+                                            <a class="dropdown-items" href="#">Quần áo Nam</a>
+                                            <a class="dropdown-items" href="#">Quần áo nữ</a>
+                                            <a class="dropdown-items" href="#">Quần áo trẻ em</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="cart.html" class="nav-links">Cart</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="contact.html" class="nav-links">Contact</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="icon text-light">
+                                <i class="fas fa-user p-2 icons"></i>
+                                <i class="fas fa-cart-arrow-down p-2 icons"></i>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end header -->
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">YOUR CART</h1>
+        </div>
+    </section>
+
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col"> </th>
+                                <th scope="col">Product</th>
+                                <th scope="col">Available</th>
+                                <th scope="col" class="text-center">Quantity</th>
+                                <th scope="col" class="text-right">Price</th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td>NON PROIDENT SUNT IN</td>
+                                <td>In stock</td>
+                                <td><input class="form-control" type="number" value="1" /></td>
+                                <td class="text-right">124,90 €</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button> </td>
+                            </tr>
+                            <tr>
+
+                                <td>Cotton Lycra
+                                    Leggings</td>
+                                <td>In stock</td>
+                                <td><input class="form-control" type="text" value="1" /></td>
+                                <td class="text-right">33,90 €</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button> </td>
+                            </tr>
+                            <tr>
+
+                                <td>The Industry</td>
+                                <td>In stock</td>
+                                <td><input class="form-control" type="text" value="1" /></td>
+                                <td class="text-right">70,00 €</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button> </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Sub-Total</td>
+                                <td class="text-right">255,90 €</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Shipping</td>
+                                <td class="text-right">6,90 €</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><strong>Total</strong></td>
+                                <td class="text-right"><strong>346,90 €</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col mb-2">
+                <div class="row">
+                    <div class="col-sm-12  col-md-6">
+                        <button class="btn btn-block btn-light">Continue Shopping</button>
+                    </div>
+                    <div class="col-sm-12 col-md-6 text-right">
+                        <button class="btn btn-lg btn-block btn-success text-uppercase">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- email -->
+    <div class="email"
+        style="background-image: url(https://www.cloud3dprint.com/assets/images/img/1920x1080/img19.jpg);background-position: center 0px;height: 100px; background-repeat: no-repeat ;">
+        <div class="email-info">
+            <i class="fa fa-envelope"></i>
+            <div>SUBSCRIBE TO OUR NEWSLETTER TO RECEIVE NEWS,
+                UPDATES, AND ANOTHER STUFF BY EMAIL.</div>
+        </div>
+        <div class="email-info-2">
+            <input type="text" placeholder="YOUR EMAIL ADDRESS"><button>SIGN UP</button>
+        </div>
+    </div>
+    <!-- end email -->
+
+    <!-- footer -->
+    <div id="footer" class="bg-dark p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-between">
+                    <div class="logo d-flex">
+                        <a href=""><img src="img/logo/logo1.png" alt=""></a>
+                        <div class="text-light pt-3 pl-3">
+                            © 2021 | private product
+                        </div>
+                    </div>
+                    <div class="text-light">
+                        My Company , Glasgow D04 89GR <br>
+                        Call us now: 800-2345-6789
+                    </div>
+                    <div class="link text-light">
+                        <i class="fab fa-facebook-f p-2"></i>
+                        <i class="fab fa-twitter p-2"></i>
+                        <i class="fab fa-linkedin-in p-2"></i>
+                        <i class="fab fa-google-plus-g p-2"></i>
+                        <i class="fas fa-wifi p-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    <script src="./js/cart.js"></script>
+
+</body>
+
+</html>

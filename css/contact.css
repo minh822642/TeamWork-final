@@ -375,6 +375,18 @@ a {
     color: white;
 }
 
+.btn-add{
+    border: none;
+    color: white;
+    background-color: #212529;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn-add:hover{
+    background-color: #ffc229;
+}
+
 /* footer */
 #footer{
     min-height: 300px;
